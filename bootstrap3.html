@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Bootstrap3</title>
+  </head>
+  <style>
+    * {
+      text-decoration: none;
+      list-style: none;
+    }
+    .btn-success {
+      width: 100%;
+    }
+    span {
+      float: right;
+    }
+    .create {
+      text-align: center;
+    }
+    #heading {
+      font-weight: lighter;
+    }
+    #nav-lists {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #nav-lists li {
+      margin-right: 30px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-sm-4 offset-sm-4 mb-2" style="text-align: center">
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "
+            width="100px"
+            height="100px"
+            alt="git"
+          />
+          <h2 id="heading">Sign in to GitHub</h2>
+        </div>
+        <div class="col-sm-4 offset-sm-4 mb-2">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="form-group">
+                <label for="usr">Username or email address</label>
+                <input type="text" class="form-control" id="usr" />
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password</label
+                ><span><a href="#">forgot password?</a></span>
+                <input type="password" class="form-control" id="pwd" />
+              </div>
+              <button class="btn btn-success">Sign in</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 offset-sm-4 mb-2">
+          <div class="card create">
+            <div class="card-body">
+              New to github?<a href="#">Create an account.</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <div class="navgation">
+            <ul id="nav-lists">
+              <li><a href="#">terms</a></li>
+              <li><a href="#">privacy</a></li>
+              <li><a href="#">security</a></li>
+              <li><a href="#">contact github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

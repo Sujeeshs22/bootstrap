@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Bootstrap2</title>
+  </head>
+  <style>
+    #nav {
+      background-color: red;
+    }
+    #content {
+      background-color: yellowgreen;
+    }
+    #widget {
+      background: orange;
+    }
+    .row {
+      height: 200px;
+      color: antiquewhite;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 text-center" id="nav">
+          <span>nav</span>
+        </div>
+        <div class="col-sm-8 pb-5 pb-md-0 order-3 text-center" id="content">
+          <span>content</span>
+        </div>
+        <div class="col-sm-2 order-sm-last text-center" id="widget">
+          <span>widget</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

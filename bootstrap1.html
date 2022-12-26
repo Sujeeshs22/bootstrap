@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Bootstrap1</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      #col {
+        background: #59c1bd;
+        width: 270px;
+
+        height: 130px;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+      }
+      .col-sm-12 {
+        background-color: pink;
+        height: 120px;
+        width: 100%;
+      }
+      .container {
+        margin-top: 30px;
+      }
+      .col2,
+      .col-sm-6 {
+        width: 49%;
+        height: 100px;
+        background-color: #0d4c92;
+      }
+      .col,
+      .col-sm-10 {
+        width: 49;
+        height: 100px;
+        background-color: #e14d2a;
+      }
+      .col {
+        margin-left: 10px;
+        background-color: #38e54d;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mb-2"></div>
+      </div>
+      <div class="row">
+        <span id="col"></span>
+        <span id="col"></span>
+        <span id="col"></span>
+        <span id="col"></span>
+      </div>
+      <div class="row mt-2">
+        <div class="col2"></div>
+        <div class="col-sm-6"></div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-sm-10"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </body>
+</html>
